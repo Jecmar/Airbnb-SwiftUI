@@ -11,6 +11,8 @@
 		A5F619152C39CB0200F44E95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F619142C39CB0200F44E95 /* ContentView.swift */; };
 		A5F619172C39CB0300F44E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F619162C39CB0300F44E95 /* Assets.xcassets */; };
 		A5F6191A2C39CB0300F44E95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F619192C39CB0300F44E95 /* Preview Assets.xcassets */; };
+		A5F6192D2C3A10EE00F44E95 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F6192C2C3A10EE00F44E95 /* ExploreView.swift */; };
+		A5F6192F2C3A137200F44E95 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F6192E2C3A137200F44E95 /* ListingItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A5F619142C39CB0200F44E95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5F619162C39CB0300F44E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F619192C39CB0300F44E95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5F6192C2C3A10EE00F44E95 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		A5F6192E2C3A137200F44E95 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		A5F619252C39D93900F44E95 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				A5F6192C2C3A10EE00F44E95 /* ExploreView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 		A5F619272C39D95900F44E95 /* Listings */ = {
 			isa = PBXGroup;
 			children = (
+				A5F6192E2C3A137200F44E95 /* ListingItemView.swift */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F619152C39CB0200F44E95 /* ContentView.swift in Sources */,
+				A5F6192F2C3A137200F44E95 /* ListingItemView.swift in Sources */,
+				A5F6192D2C3A10EE00F44E95 /* ExploreView.swift in Sources */,
 				A5F619132C39CB0200F44E95 /* AirbnbCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
