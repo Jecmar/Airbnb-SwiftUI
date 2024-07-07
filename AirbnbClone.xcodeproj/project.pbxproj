@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5D9B60E2C3AEA0000414562 /* SearchAndFilteBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9B60D2C3AEA0000414562 /* SearchAndFilteBar.swift */; };
 		A5F619132C39CB0200F44E95 /* AirbnbCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F619122C39CB0200F44E95 /* AirbnbCloneApp.swift */; };
 		A5F619152C39CB0200F44E95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F619142C39CB0200F44E95 /* ContentView.swift */; };
 		A5F619172C39CB0300F44E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F619162C39CB0300F44E95 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5D9B60D2C3AEA0000414562 /* SearchAndFilteBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilteBar.swift; sourceTree = "<group>"; };
 		A5F6190F2C39CB0200F44E95 /* AirbnbClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F619122C39CB0200F44E95 /* AirbnbCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbCloneApp.swift; sourceTree = "<group>"; };
 		A5F619142C39CB0200F44E95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5D9B60B2C3AE9EA00414562 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A5D9B60D2C3AEA0000414562 /* SearchAndFilteBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		A5F619062C39CB0200F44E95 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +131,7 @@
 		A5F619252C39D93900F44E95 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				A5D9B60B2C3AE9EA00414562 /* Components */,
 				A5F6192C2C3A10EE00F44E95 /* ExploreView.swift */,
 			);
 			path = Explore;
@@ -241,6 +252,7 @@
 			files = (
 				A5F619152C39CB0200F44E95 /* ContentView.swift in Sources */,
 				A5F6192F2C3A137200F44E95 /* ListingItemView.swift in Sources */,
+				A5D9B60E2C3AEA0000414562 /* SearchAndFilteBar.swift in Sources */,
 				A5F6192D2C3A10EE00F44E95 /* ExploreView.swift in Sources */,
 				A5F619132C39CB0200F44E95 /* AirbnbCloneApp.swift in Sources */,
 			);
