@@ -1,5 +1,5 @@
 //
-//  CustomSearchBar.swift
+//  SearchAndFilterBar.swift
 //  AirbnbClone
 //
 //  Created by Eduardo Martinez on 07/07/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SearchAndFilteBar: View {
+struct SearchAndFilterBar: View {
     @Binding var displayFilter: Bool
     
     private let title: String = "Where to?"
@@ -56,5 +56,5 @@ struct SearchAndFilteBar: View {
 }
 
 #Preview {
-    SearchAndFilteBar(displayFilter: .constant(false))
+    SearchAndFilterBar(displayFilter: .constant(false))
 }

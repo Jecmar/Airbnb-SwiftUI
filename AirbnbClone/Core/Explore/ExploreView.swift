@@ -11,7 +11,7 @@ struct ExploreView: View {
     var body: some View {
         NavigationStack{
             VStack{
-                SearchAndFilteBar(displayFilter: .constant(true))
+                SearchAndFilterBar(displayFilter: .constant(true))
                     .padding(.horizontal)
                 
                 ScrollView{
